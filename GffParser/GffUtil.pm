@@ -1,3 +1,23 @@
+=head1 NAME
+
+GffUtil.pm
+
+=head1 SYNOPSIS
+
+my $gff = Bio::Tools::GFF->new(-file => $ARGV[0] , -gff_version => 3);
+my $util = GffUtil->new(gff => $gff);
+
+#computes the frame of the feature..
+my ($frame, $strand) = $util->return_frame_and_strand_of_feature($gff->next_feature);
+
+=head1 DESCRIPTION
+
+This simple package provides utility functions for GFF object processing.
+
+=head1 CONTACT
+
+=cut
+
 package GffUtil;
 
 use strict;

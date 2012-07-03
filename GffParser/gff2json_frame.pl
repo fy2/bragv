@@ -2,18 +2,13 @@
 
 =head1 NAME
 
-rna_seq_expression
+gff2json_frame.pl
 
 =head1 SYNOPSIS
 
 =head1 DESCRIPTION
 
-This script takes in an aligned sequence file (BAM) and a corresponding annotation file (GFF) and creates a spreadsheet with expression values.
-The BAM must be aligned to the same reference that the annotation refers to.
-
 =head1 CONTACT
-
-path-help@sanger.ac.uk
 
 =cut
 
